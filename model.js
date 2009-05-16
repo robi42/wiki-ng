@@ -1,4 +1,4 @@
-include('helma/storage/filestore');
+include('helma/storage/dbstore/hibernate');
 
 export('Page');
 
