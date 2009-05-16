@@ -1,6 +1,6 @@
 #!/usr/bin/env helma
 
-// lod DB connector lib
+// load DB connector lib
 addToClasspath('lib/mysql-connector-java-5.1.6-bin.jar');
 
 // main script to start application
