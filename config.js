@@ -14,8 +14,8 @@ exports.middleware = [
     'helma/middleware/responselog'
 ];
 
-var Store = require('helma/storage/filestore').Store;
-exports.store = new Store('db');
+// var Store = require('helma/storage/filestore').Store;
+exports.store = require('helma/storage/dbstore/hibernate');
 
 exports.macros = [
     'helpers',
